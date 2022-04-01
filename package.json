@@ -1,7 +1,7 @@
 {
-  "homepage": "https://developersdot.github.io/static-page-app",
   "name": "static-page-app",
   "version": "0.1.0",
+  "homepage": "https://developersdot.github.io/static-page-app",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
