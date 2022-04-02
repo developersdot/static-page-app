@@ -3,14 +3,12 @@ import ReactDOM from "react-dom";
 import './index.css';
 import Header from "./components/Header";
 import MainContent from "./components/MainContent";
-import Footer from "./components/Footer";
 
 
 const page = (
-  <div>
+  <div className="container">
     <Header />
     <MainContent />
-    <Footer />
   </div>
 );
 
