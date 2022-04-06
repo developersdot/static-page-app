@@ -22,11 +22,13 @@ body{
     color: #FFFFFF;
     text-align: center;
     font-weight: bold;
+    margin-bottom: 0;
 }
 .businesscard__profession{
     color: #F3BF99;
     text-align: center;
     font-size: 0.8em;
+    margin-top: 6px;
 }
 .businesscard__website{
     font-size: 0.7em;
@@ -36,7 +38,7 @@ body{
 }
 .businesscard__socialbtn {
     display: flex;
-    padding: 0 18px;
+    padding: 0 18px 12px;
     font-weight: 600;
     justify-content: space-between;
     font-size: 16px;
@@ -80,9 +82,16 @@ body{
     font-size: 16px;
     line-height: 150%;
     color: #F5F5F5;
+    margin: 18px 0 5px 0;
 }
 .businesscard__about, .businesscard__interests {
-    padding: 21px 32px 0 32px;
+    padding: 0 32px 0 32px;
+    font-size: 12px;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+.businesscard__about p, .businesscard__interests p {
+    margin: 0;
 }
 .businesscard__footer {
     background-color: #161619;
@@ -94,3 +103,4 @@ body{
 .businesscard__footer > li {
     padding: 0 10px;
 }
+
